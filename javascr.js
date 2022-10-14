@@ -1,7 +1,7 @@
 var navig = document.querySelector('nav');
 
 window.addEventListener('scroll', function () {
-    if(window.pageYOffset > 100) {
+    if(window.pageYOffset > 60) {
         navig.classList.add('bg-dark');
     } else {
         navig.classList.remove('bg-dark');
